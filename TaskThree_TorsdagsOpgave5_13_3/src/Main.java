@@ -13,7 +13,7 @@ public class Main {
 
         Building building = new Building(rooms,3);
         countLampInBuilding(building);
-        
+
     }
     public static void countLampInBuilding(Building building){
         int totalLamp = 0;

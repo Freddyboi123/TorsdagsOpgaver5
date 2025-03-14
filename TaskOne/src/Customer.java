@@ -5,6 +5,8 @@ public class Customer {
     private String lastName;
     private String username;
     private int id;
+
+    
     private static int counter = 0;
 
     Customer (String firstName,String lastName, String username){

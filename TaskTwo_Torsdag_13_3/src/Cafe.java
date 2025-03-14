@@ -21,7 +21,7 @@ public class Cafe {
 
 
         try {
-            File file = new File("data/Cofee.txt");
+            File file = new File("Data/Coffee.txt");
             Scanner scan = new Scanner(file);
 
 
@@ -31,7 +31,8 @@ public class Cafe {
 
             }
         }  catch(FileNotFoundException e){
-        System.out.println("File not found. Check path and filename");
+            throw new RuntimeException("File not found. Check path and filename", e);
+
         }
     }
 }
